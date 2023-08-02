@@ -473,5 +473,85 @@ text-align: left;
         height: 75px;
         flex-shrink: 0;
         background: #f16d7f;
-    }    
+    }
+
+
+    .assortiment {
+        grid-gap: 32px;
+        grid-template-columns: 343px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+   
+    .box {
+        height: 247px;
+    }
+        
+    .a {
+        grid-column: 1;
+        grid-row: 1;
+        background-size: 343px, 247px;
+    }
+    .b {
+        grid-column: 1;
+        grid-row: 2;
+        background-size: 343px, 247px;
+    }
+    .c {
+        grid-column: 1;
+        grid-row: 3;
+        background-size: 343px, 247px;
+    }
+
+    .d {
+        grid-column: 1;
+        grid-row: 4;
+        height: 111px;
+    }
+
+
+    .featured_items {
+        grid-template-columns: 418px;
+        padding-top: 65px;
+        padding-bottom: 96px;
+    }
+
+    .a2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .b2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .c2 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .d2 {
+        grid-column: 1 ;
+        grid-row: 4;
+    }
+    .e2 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .f2 {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .box2 {
+        padding: 0px 8px 0px 8px;
+        height: 581px;
+        background: #F8F8F8;;
+    }
+    .page2_item_name {
+        margin-left: 12px;
+    }
+    .page2_text {
+        margin-left: 12px;
+    }
+    .price {
+        margin-left: 12px;
+    }
 }
