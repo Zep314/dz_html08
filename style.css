@@ -127,7 +127,7 @@ body {
     width: 400px;
     height: 93px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     gap: 15px;
     align-items: center;
 }
@@ -357,6 +357,8 @@ text-align: left;
         grid-template-columns: 232px 232px 232px;
         padding-top: 65px;
         padding-bottom: 96px;
+        padding-left: 16px;
+        
     }
    
     .box {
@@ -453,7 +455,6 @@ text-align: left;
         width: 400px;
         height: 93px;
         display: flex;
-        justify-content: space-between;
         gap: 15px;
         align-items: center;
     }
